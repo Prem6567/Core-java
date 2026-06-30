@@ -1,6 +1,12 @@
 public class Main {
 	public static void main(String[] args) {
-	 System.out.println("Hello,World!");
-	 System.out.print("Welcome to java");
+		int a = 10;
+		int b = 5;
+		System.out.println( a + b); //
+		System.out.println( a  -  b); //
+		System.out.println( a  * b); //
+		System.out.println( a / b ); //
+		System.out.println( a % b); //
 	}
 }
+		
