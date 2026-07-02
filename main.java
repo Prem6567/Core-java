@@ -1,12 +1,7 @@
 public class Main {
 	public static void main(String[] args) {
-		int a = 10;
-		int b = 5;
-		System.out.println( a + b); //
-		System.out.println( a  -  b); //
-		System.out.println( a  * b); //
-		System.out.println( a / b ); //
-		System.out.println( a % b); //
+	    System.out.println("Hello");
+	    System.out.println("My Name is prem");
+	    System.out.println("I Am Learning Java");
 	}
 }
-		
