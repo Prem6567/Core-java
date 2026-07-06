@@ -1,20 +1,12 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        int age = 18;
 
-        System.out.print("prem: ");
-        String name = sc.nextLine();
-
-        System.out.print("18: ");
-        int age = sc.nextInt();
-
-        System.out.println("\n--- User Details ---");
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
-
-        sc.close();
+        if (age >= 18) {
+            System.out.println("You are eligible to vote.");
+        } else {
+            System.out.println("You are not eligible to vote.");
+        }
     }
 }
